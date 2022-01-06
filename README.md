@@ -16,6 +16,6 @@ A tela de detalhes deverá abrir uma outra tela.
 
 A busca por filme deve ficar em uma opção na Tab Bar com uma lupa onde deve abrir uma tela com um campo para digitar o nome do filme.
 
-App Publicado na Play Store
+# App Publicado na Play Store
 
 https://play.google.com/store/apps/details?id=com.jera.jeraflix
