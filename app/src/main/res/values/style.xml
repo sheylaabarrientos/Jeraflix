@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="movieTitle">
+        <item name="android:text">@string/movie_title</item>
+        <item name="fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/greenSecondaryColor</item>
+        <item name="android:textSize">@dimen/margin_24</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Text_Detail_Movie">
+        <item name="android:textColor">@color/greenSecondaryColor</item>
+        <item name="android:textSize">@dimen/text_size_14</item>
+        <item name="android:layout_marginStart">@dimen/margin_16</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Subtitle_Detail_Movie">
+        <item name="android:textColor">@color/movieDetailsTextBoldColor</item>
+        <item name="android:textSize">@dimen/text_size_18</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginStart">@dimen/margin_16</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.MaterialCardView.Cut" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopRight">0dp</item>
+        <item name="cornerSizeTopLeft">45dp</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+        <item name="cornerSizeBottomLeft">45dp</item>
+        <item name="colorPrimaryDark">@color/white</item>
+    </style>
+
+    <style name="shapeableImageStyle" parent="">
+        <item name="cornerSizeBottomLeft">40dp</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+        <item name="cornerSizeTopLeft">0dp</item>
+        <item name="cornerSizeTopRight">0dp</item>
+    </style>
+
+    <style name="LabelRatingCardView" parent="@style/Widget.MaterialComponents.CardView">
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay.MaterialCardView.Cut</item>
+    </style>
+
+    <string name="movie_title">style_movie_title</string>
+
+    <style name="LaunchTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:windowBackground">@drawable/launch_background</item>
+    </style>
+</resources>

@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">jeraflix</string>
+    <string name="cover_movie">cover_movie</string>
+    <string name="title_release">Lançado em:</string>
+    <string name="release_date">release_date</string>
+    <string name="revenue">revenue</string>
+    <string name="txt_movie_length">tv_movie_length</string>
+    <string name="sinopse">Sinopse</string>
+    <string name="elenco">elenco</string>
+    <string name="star_avaliacao_usuario">Avaliação</string>
+    <string name="_81_percent">81%</string>
+    <string name="james_mangold">simu_liu</string>
+    <string name="diretor">diretor</string>
+    <string name="search_hint">Procure por mais filmes!</string>
+    <string name="erro_empty_text_1">Esse filme não existe</string>
+    <string name="erro_empty_text_2">Não conseguimos encontrar o filme que você procura. Por favor refaça sua busca.</string>
+    <string name="erro_fail_text_1">O sistema falhou</string>
+    <string name="erro_fail_text_2">Por algum motivo, não conseguimos processar com essa solicitação. Por favor tente novamente.</string>
+    <string name="movie_title_text">Movie Title</string>
+    <string name="movie_rate">Movie Rate</string>
+    <string name="realeasedate">RealeaseDate</string>
+    <string name="movie_details_search">Nome do filme,\n ano, avaliação</string>
+    <string name="popular_movies">Filmes Populares</string>
+    <string name="movie_cover">movie cover</string>
+    <string name="soon">Em breve</string>
+    <string name="popular">Populares</string>
+    <string name="top_rated">Bem avaliados</string>
+    <string name="retry">Tente Novamente!</string>
+    <string name="upcoming">Em breve</string>
+    <string name="search">Search</string>
+</resources>

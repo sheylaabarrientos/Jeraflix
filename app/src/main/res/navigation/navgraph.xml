@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navgraph"
+    app:startDestination="@id/listPopularMovies">
+
+    <fragment
+        android:id="@+id/listPopularMovies"
+        android:name="com.jera.jeraflixx.popularmovies.PopularMoviesFragment"
+        android:label="PorpularMoviesList"
+        tools:layout="@layout/list_movies_fragment"/>
+    <fragment
+        android:id="@+id/listComingSoonMovies"
+        android:name="com.jera.jeraflixx.upcomingmovies.UpcomingMoviesFragment"
+        android:label="ListComingSoonMovies"
+        tools:layout="@layout/list_movies_fragment"/>
+    <fragment
+        android:id="@+id/listTopRatedMovies"
+        android:name="com.jera.jeraflixx.toprated.TopRatedMoviesFragment"
+        android:label="ListTopRatedMovies"
+        tools:layout="@layout/list_movies_fragment"/>
+    <fragment
+        android:id="@+id/detailsMovies"
+        android:name="com.jera.jeraflixx.detailsmovies.DetailsMoviesFragment"
+        android:label="DetailsMovies"
+        tools:layout="@layout/details_movies_fragment">
+        <argument android:name="movie"
+            app:argType="com.jera.jeraflix.database.retrofit.Movie"/>
+    </fragment>
+    <fragment
+        android:id="@+id/searchMovies"
+        android:name="com.jera.jeraflixx.searchmovies.SearchMoviesFragment"
+        android:label="SearchMovies"
+        tools:layout="@layout/search_fragment"/><action android:id="@+id/action_global_searchMovies" app:destination="@id/searchMovies"/>
+    <action android:id="@+id/action_global_detailsMovies" app:destination="@id/detailsMovies" />
+</navigation>
